@@ -47,14 +47,23 @@ $(document).ready(function () {
                     }
                 },
                 submitHandler: function (form) {
+                    const body = `<html>
+                                <body>
+                                Hi<br/>
+                                You are contacted from ${$('#name')[0].value} (${$('#email')[0].value}).<br/>
+                                Details:<br/>
+                                Subject: ${$('#subject')[0].value}<br/>
+                                Message: ${$('#message')[0].value}<br/>
+                                </body>
+                                </html>`
                     Email.send({
                         Host: "smtp.gmail.com",
                         Username: "pratiksocial2@gmail.com",
                         Password: "Pratik@123",
-                        To: 'pratikmmaniya244@gmai.com',
+                        To: 'pratikmmaniya244@gmail.com',
                         From: "pratiksocial2@gmail.com",
-                        Subject: "pratiksocial1@gmail.com",
-                        Body: "pratiksocial1@gmail.com",
+                        Subject: `Contact request from ${$('#name')[0].value} with pratikmaniya.github.io`,
+                        Body: body,
                     }).then(message => {
                         console.log(message)
                         $('#contactForm :input').attr('disabled', 'disabled');
@@ -64,26 +73,6 @@ $(document).ready(function () {
                             $('#success').fadeIn()
                         })
                     })
-                    // $(form).ajaxSubmit({
-                    //     type:"POST",
-                    //     data: $(form).serialize(),
-                    //     url:"contact_process.php",
-                    //     success: function(data) {
-                    //         console.log(data)
-                    //         $('#contactForm :input').attr('disabled', 'disabled');
-                    //         $('#contactForm').fadeTo( "slow", 0.15, function() {
-                    //             $(this).find(':input').attr('disabled', 'disabled');
-                    //             $(this).find('label').css('cursor','default');
-                    //             $('#success').fadeIn()
-                    //         })
-                    //     },
-                    //     error: function(data) {
-                    //         $('#contactForm').fadeTo( "slow", 0.15, function() {
-                    //             console.log(data)
-                    //             $('#error').fadeIn()
-                    //         })
-                    //     }
-                    // })
                 }
             })
         })
