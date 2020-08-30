@@ -57,19 +57,25 @@ $(document).ready(function () {
                                 </body>
                                 </html>`
                     Email.send({
-                        SecureToken: "1e41cbbe-dc28-49bb-bed1-85a8d4a925df",
+                        SecureToken: "4ece5793-85b8-4db8-9720-bf4d7f1788ea",
                         To: 'pratikmmaniya244@gmail.com',
                         From: "pratiksocial2@gmail.com",
                         Subject: `Contact request from ${$('#name')[0].value} with pratikmaniya.github.io`,
                         Body: body,
                     }).then(message => {
                         console.log(message)
-                        $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo("slow", 0.15, function () {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor', 'default');
-                            $('#success').fadeIn()
-                        })
+                        if (message === 'OK') {
+                            $('#contactForm :input').attr('disabled', 'disabled');
+                            $('#contactForm').fadeTo("slow", 0.15, function () {
+                                $(this).find(':input').attr('disabled', 'disabled');
+                                $(this).find('label').css('cursor', 'default');
+                                $('#success').fadeIn()
+                            })
+                        } else {
+                            $('#contactForm').fadeTo("slow", 0.15, function () {
+                                $('#error').fadeIn()
+                            })
+                        }
                     })
                 }
             })
