@@ -49,10 +49,10 @@ $(document).ready(function () {
                 submitHandler: function (form) {
                     Email.send({
                         Host: "smtp.gmail.com",
-                        Username: "pratiksocial1@gmail.com",
-                        Password: "Pratik321",
+                        Username: "pratiksocial2@gmail.com",
+                        Password: "Pratik@123",
                         To: 'pratikmmaniya244@gmai.com',
-                        From: "pratiksocial1@gmail.com",
+                        From: "pratiksocial2@gmail.com",
                         Subject: "pratiksocial1@gmail.com",
                         Body: "pratiksocial1@gmail.com",
                     }).then(message => {
