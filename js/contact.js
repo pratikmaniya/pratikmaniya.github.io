@@ -57,9 +57,7 @@ $(document).ready(function () {
                                 </body>
                                 </html>`
                     Email.send({
-                        Host: "smtp.gmail.com",
-                        Username: "pratiksocial2@gmail.com",
-                        Password: "Pratik@123",
+                        SecureToken: "1e41cbbe-dc28-49bb-bed1-85a8d4a925df",
                         To: 'pratikmmaniya244@gmail.com',
                         From: "pratiksocial2@gmail.com",
                         Subject: `Contact request from ${$('#name')[0].value} with pratikmaniya.github.io`,
