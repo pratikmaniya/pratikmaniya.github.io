@@ -57,7 +57,7 @@ $(document).ready(function () {
                                 </body>
                                 </html>`
                     Email.send({
-                        SecureToken: "e0d449b9-b596-4479-b1e0-26ff094cc83a",
+                        SecureToken: "245ede1f-c1b4-4a68-bdc6-e232aa531fac",
                         To: 'pmmaniya244@gmail.com',
                         From: "pratiksocial2@gmail.com",
                         Subject: `Contact request from ${$('#name')[0].value} with pratikmaniya.github.io`,
