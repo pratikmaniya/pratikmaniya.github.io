@@ -90,8 +90,8 @@ body, p, h1, h2, h3, h4, h5, h6{
   -webkit-animation: load 1s infinite linear;
   -moz-animation: load 1s infinite linear;
   animation: load 1s infinite linear;
-  background: -webkit-linear-gradient(top, #ff5959 10%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to bottom, #ff5959 10%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(top, #a4afea 10%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, #a4afea 10%, rgba(255, 255, 255, 0) 100%);
   height: 4em;
   width: 4em;
   border-radius: 50%;
@@ -107,8 +107,8 @@ body, p, h1, h2, h3, h4, h5, h6{
   left: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, #ff5959 50%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ff5959 50%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, #a4afea 50%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #a4afea 50%);
   border-radius: 100%;
   content: '';
 }
