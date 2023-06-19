@@ -58,7 +58,7 @@ a:hover, a:focus {
 
 body {
   line-height: 24px;
-  font-size: 13px;
+  font-size: 14px;
   color: #333333;
   font-family: "Raleway", sans-serif;
 }
@@ -142,8 +142,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
   -webkit-animation: load 1s infinite linear;
   -moz-animation: load 1s infinite linear;
   animation: load 1s infinite linear;
-  background: -webkit-linear-gradient(top, #1b86f6 10%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(to bottom, #1b86f6 10%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(top, #209ff5 10%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, #209ff5 10%, rgba(255, 255, 255, 0) 100%);
   height: 4em;
   width: 4em;
   border-radius: 50%;
@@ -160,8 +160,8 @@ body, p, h1, h2, h3, h4, h5, h6 {
   left: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, #1b86f6 50%);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #1b86f6 50%);
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, #209ff5 50%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #209ff5 50%);
   border-radius: 100%;
   content: '';
 }
@@ -220,7 +220,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Header Menu Area css
 ============================================================================================ */
 .header_area {
-  background: #1b86f6;
+  background: #209ff5;
 }
 
 .header_area .navbar.navbar-default {
@@ -319,7 +319,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_person_area .person_details h3 span {
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 .about_person_area .person_details h4 {
@@ -331,7 +331,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_person_area .person_details p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
   color: #333333;
   font-family: "Raleway", sans-serif;
@@ -347,7 +347,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_person_area .person_details .person_information ul li a {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 26px;
   color: #333333;
   font-family: "Raleway", sans-serif;
@@ -358,7 +358,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_person_area .person_details .person_information ul + ul li a {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 26px;
   color: #666666;
   font-family: "Raleway", sans-serif;
@@ -471,7 +471,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .download_btn {
   display: block;
-  background: #1b86f6;
+  background: #209ff5;
   text-align: center;
   line-height: 40px;
   border-radius: 20px;
@@ -526,7 +526,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   outline: none !important;
   border: none;
   border-radius: 0px;
-  background: #1b86f6;
+  background: #209ff5;
   width: 100%;
   padding: 0px;
   position: relative;
@@ -558,11 +558,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .contact_btn:focus {
-  background: #1b86f6;
+  background: #209ff5;
 }
 
 .contact_btn:hover {
-  background: #1b86f6;
+  background: #209ff5;
 }
 
 .contact_btn:hover span {
@@ -595,7 +595,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .myskill_area .skill_text p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   color: #333333;
@@ -621,7 +621,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .myskill_area .skill_item_inner .single_skill .progress .progress-bar {
-  background: #1b86f6;
+  background: #209ff5;
   box-shadow: none;
 }
 
@@ -659,7 +659,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   left: 50%;
   width: 5px;
   margin-left: -2.5px;
-  background: #71b6ff;
+  background: #209ff580;
 }
 
 .education_area .education_inner_area .education_item {
@@ -680,7 +680,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  border: 4px solid #71b6ff;
+  border: 4px solid #209ff580;
   text-align: center;
   color: #fff;
   line-height: 43px;
@@ -688,12 +688,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  background: #1b86f6;
+  background: #209ff5;
 }
 
 .education_area .education_inner_area .education_item:after {
   content: "";
-  background: #71b6ff;
+  background: #209ff580;
   height: 4px;
   position: absolute;
   right: -78px;
@@ -728,7 +728,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .education_area .education_inner_area .education_item h6 {
   font-size: 14px;
-  color: #1b86f6;
+  color: #209ff5;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
@@ -747,7 +747,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .education_area .education_inner_area .education_item p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   color: #666666;
@@ -760,7 +760,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /* Service Area css
 ============================================================================================ */
 .service_area {
-  background: #1b86f6;
+  background: #209ff5;
   padding: 0px 100px 60px 100px;
 }
 
@@ -790,7 +790,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .service_area .service_inner .service_item p {
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Raleway", sans-serif;
   line-height: 24px;
   color: #333333;
@@ -838,7 +838,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .portfolio_area .porfolio_menu .causes_filter li a:before {
   content: "";
   height: 5px;
-  background: #1b86f6;
+  background: #209ff5;
   width: 100%;
   position: absolute;
   left: 0px;
@@ -933,7 +933,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_title {
-  background: #1b86f6;
+  background: #209ff5;
 }
 
 .portfolio_area .portfolio_list_inner .portfolio_item:hover .portfolio_title h4 {
@@ -970,7 +970,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .twitter_area ul li a {
-  color: #1b86f6;
+  color: #209ff5;
   font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
@@ -1080,7 +1080,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_slider_area .blog_slider_inner .item h5 a {
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 .blog_slider_area .owl-prev {
@@ -1095,7 +1095,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_slider_area .owl-prev:hover {
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 .blog_slider_area .owl-next {
@@ -1110,7 +1110,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .blog_slider_area .owl-next:hover {
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 .contact_title h3 {
@@ -1146,13 +1146,13 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .left_contact_details .media .media-left i {
   height: 60px;
   width: 60px;
-  background: #1b86f6;
+  background: #209ff5;
   color: #fff;
   font-size: 30px;
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
-  border: 1px solid #1b86f6;
+  border: 1px solid #209ff5;
   transition: all 400ms linear 0s;
 }
 
@@ -1174,7 +1174,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .left_contact_details .media:hover .media-left i {
   background: transparent;
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 .contact_from_area .form-group {
@@ -1220,7 +1220,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .contact_from_area .form-group input:focus {
-  border-color: #1b86f6;
+  border-color: #209ff5;
 }
 
 .contact_from_area .form-group textarea {
@@ -1263,7 +1263,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .contact_from_area .form-group textarea:focus {
-  border-color: #1b86f6;
+  border-color: #209ff5;
 }
 
 .contact_from_area .form-group:last-child {
@@ -1312,7 +1312,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-right: 5px;
   margin-bottom: 5px;
-  background: #1b86f6;
+  background: #209ff5;
 }
 
 .envalab-style-switch .switched-options .styles li:nth-child(2) a {
@@ -1383,7 +1383,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .footer_inner h2 {
   font-family: "Bree Serif", serif;
-  color: #1b86f6;
+  color: #209ff5;
   max-width: 100%;
   margin-bottom: 40px;
 }
@@ -1443,7 +1443,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_copyright .pull-left h5 {
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
   font-family: "Raleway", sans-serif;
   line-height: 100px;
@@ -1451,7 +1451,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .footer_copyright .pull-left h5 a {
   font-weight: bold;
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 .footer_copyright .pull-right .navbar-nav li {
@@ -1474,7 +1474,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer_copyright .pull-right .navbar-nav li:hover a, .footer_copyright .pull-right .navbar-nav li.active a {
-  color: #1b86f6;
+  color: #209ff5;
 }
 
 ::-webkit-scrollbar {
@@ -1488,7 +1488,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1b86f6; 
+  background: #209ff5; 
 }
 
 /* Handle on hover */
@@ -1497,7 +1497,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 } */
 
 .pdetails_link:hover{
-  color: #1b86f6 !important;
+  color: #209ff5 !important;
 }
 
 /* End Footer area css
