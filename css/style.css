@@ -585,6 +585,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /* Skill Area css
 ============================================================================================ */
+
 .myskill_area{
   padding-bottom: 100px;
 }
@@ -647,6 +648,25 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* End Skill Area css
+============================================================================================ */
+/* Certification Area css
+============================================================================================ */
+
+.certifications_area{
+  padding-bottom: 100px;
+  background-color: #1a1a1a;
+}
+
+.certifications_area .main_title h2{
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.certification-badge-image{
+  width: -webkit-fill-available;
+}
+
+/* End Certification Area css
 ============================================================================================ */
 /* Education Area css
 ============================================================================================ */
