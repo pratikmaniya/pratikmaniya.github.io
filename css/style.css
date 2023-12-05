@@ -666,8 +666,18 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+.certification-badge-link{
+  text-decoration: none;
+  display: block;
+}
+
+.certification-badge-link:hover{
+  transform: scale(1.02);
+  transition: 200ms;
+}
+
 .certification-badge-image{
-  width: -webkit-fill-available;
+  width: 90%;
 }
 
 /* End Certification Area css
