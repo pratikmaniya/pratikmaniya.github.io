@@ -808,7 +808,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .service_area .service_inner .service_item {
   text-align: center;
-  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .service_area .service_inner .service_item i {
@@ -828,7 +828,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #222222;
-  padding: 25px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 .service_area .service_inner .service_item p {
