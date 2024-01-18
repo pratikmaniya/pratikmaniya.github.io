@@ -657,7 +657,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 
 .certifications_area{
-  padding-bottom: 100px;
   background-color: #1a1a1a;
 }
 
@@ -667,6 +666,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .certification-badge-link{
+  margin-bottom: 50px;
   text-decoration: none;
   display: block;
 }
