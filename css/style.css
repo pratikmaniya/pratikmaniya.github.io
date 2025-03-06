@@ -355,6 +355,7 @@ h6 {
   color: #333333;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .about_person_area .person_details .person_information {
@@ -693,6 +694,7 @@ h6 {
 
 .certification-badge-image {
   width: 90%;
+  max-width: 280px;
 }
 
 /* End Certification Area css
@@ -823,7 +825,7 @@ h6 {
 
 .service_area .service_inner .service_item {
   text-align: center;
-  margin-bottom: 50px;
+  margin: 0 20px 50px 20px;
 }
 
 .service_area .service_inner .service_item i {
@@ -1207,7 +1209,7 @@ h6 {
 }
 
 .left_contact_details .media {
-  margin-bottom: 50px;
+  margin: 10px 0 50px;
 }
 
 .left_contact_details .media .media-left {
